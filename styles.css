@@ -50,10 +50,14 @@ table {
 
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
 
 nav {
     background-color: rgb(0, 0, 85);
@@ -67,7 +71,6 @@ nav {
     align-items: center;
     width: 75%;
     margin: auto;
-
 }
 
 .navLogo {
@@ -114,4 +117,19 @@ padding: 64px;
     font-weight: bold;
     background-color: lightblue;
     border-radius: 10%;
+}
+
+.cardContainer {
+    text-align: center;
+    padding: 64px;
+}
+
+.cardSection {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    margin: 16px;
 }
