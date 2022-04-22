@@ -133,3 +133,24 @@ padding: 64px;
     width: 200px;
     margin: 16px;
 }
+
+.quoteContainer {
+    background-color: lightgray;
+    display: flex;
+    padding: 200px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteWrap {
+    width: 768px;
+}
+.quoteText {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.quoteAuthor {
+    font-weight: bold;
+    text-align: right;
+}
